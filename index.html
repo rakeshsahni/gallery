@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery App</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+
+    <form action="#" id="form">
+        <input type="text" id="in" placeholder="Search Items" required>
+        <button class="btn" type="submit">Search</button>
+    </form>
+    <div class="fullimg" id="hi">
+        <div class="cross" onclick="hideImg()">X</div>
+        <img src="./images/img3.jpg" alt="one" id='var-img' class="sub-fullimg" />
+    </div>
+    <div class="images">
+        <img src="./images/img3.jpg" alt="three" onclick="showImg(this.src)" class="image">
+    </div>
+
+
+    <script src="./js/index.js"></script>
+</body>
+
+</html>
